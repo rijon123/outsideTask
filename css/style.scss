@@ -432,7 +432,12 @@ font-weight: 400;
     padding: 50px 0;
 }
 .founder-bg--inner{
-    background-image: url("../images/founderBg.jpg");
+    background-image: url("../../images/founderBg.jpg");
     height: 650px;
     background-size: 100%;
+}
+
+.beneficiaries{
+    background-color: $white-color;
+    padding: 70px 0 50px 0;
 }
