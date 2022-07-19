@@ -547,4 +547,9 @@ footer hr {
 
 .copy-footer {
   padding-top: 150px;
+}
+
+.gallery-bottom-space {
+  margin-bottom: 0 !important;
+  padding-bottom: 150px;
 }/*# sourceMappingURL=style.css.map */
