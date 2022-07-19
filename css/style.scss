@@ -428,16 +428,133 @@ font-weight: 400;
 }
 // founder css here
 .founder-bg{
-    background-color: $bg-color;
-    padding: 50px 0;
+    background-color: #D7C3AE;
+    padding:80px 0  50px 0;
+    height: 450px;
 }
 .founder-bg--inner{
     background-image: url("../../images/founderBg.jpg");
-    height: 650px;
+    height: 610px;
     background-size: 100%;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .beneficiaries{
     background-color: $white-color;
     padding: 70px 0 50px 0;
+}
+.founder-head h5{
+    color: $white-color;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;font-family: 'Inter', sans-serif;
+}
+.founder-inner-info{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 93%;
+}
+.founder-inner-info h6{
+    color: $white-color;
+    font-weight: 300;
+    font-size: 32px;
+}
+.founder-inner-info h5{
+    color: $white-color;
+    font-weight: 300;
+    font-size: 32px;
+}
+.founder-inner-info hr{
+        opacity: 0.5;
+    border: 0.75px solid $white-color;
+}
+.gallery-group{
+border: 1px solid #F2EFEE;
+            padding: 30px;
+}
+.gallery-group h6{
+font-family: 'Inter', sans-serif;
+font-size: 15px;
+color: $grey-color;
+font-weight: 400;
+}.gallery-img {
+    width: 380px;
+    height: 310px;
+    margin-bottom: 20px;
+}.gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-img--second{
+    height: 450px;margin-bottom: 25px;
+}
+.gallery--second{
+    height: 550px;
+}
+.gallery-img--second img{
+    height: 100%;
+        object-fit: cover;
+}
+.gallery--first{
+    margin-top: 90px;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-menu a{
+
+            font-size: 14px;
+            color: $white-color;
+}
+footer{
+    background-color: $black-color;
+    padding: 50px 0;
+}
+footer .social-icons a {
+    color: $white-color;
+    font-size: 15px;
+}.footer-logo{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 40px;
+}.footer-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+footer hr{
+border: 0.5px solid #fff;
+    opacity: 0.2;
+
+}
+.copy-footer-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.copy-footer-links li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.copy-footer-links a ,
+.copy-footer-rights p{
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.65;
+        color: $white-color;
+}
+.copy-footer{
+    padding-top: 150px;
 }
