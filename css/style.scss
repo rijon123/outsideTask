@@ -283,11 +283,10 @@ label {
 }
 // banner info css here
 .banner-info h3{
-    color: $pr-color;
-    font-size: 65px;
-    width: 65%;
+color: #003A92;
+    font-size: 55px;
+    width: 70%;
     padding-top: 5%;
-    font-weight: regular;
 }.nav-link
 .btn-border{
     border: 1px solid $grey-color;
@@ -345,7 +344,7 @@ label {
     height: 230px;
 }
 .latest--minimum{
-    min-width: 655px;
+    min-width: 555px;
 }
 .latest-blog-img img{ 
     width: 100%;
@@ -434,10 +433,11 @@ font-weight: 400;
 }
 .founder-bg--inner{
     background-image: url("../../images/founderBg.jpg");
-    height: 610px;
+    height: 550px;
     background-size: 100%;
     position: relative;
     margin-bottom: 100px;
+    background-repeat: no-repeat;
 }
 
 .beneficiaries{
@@ -489,8 +489,8 @@ font-size: 15px;
 color: $grey-color;
 font-weight: 400;
 }.gallery-img {
-    width: 380px;
-    height: 310px;
+    width: 280px;
+    height: 200px;
     margin-bottom: 20px;
 }.gallery-img img {
     width: 100%;
@@ -675,4 +675,65 @@ border: 0.5px solid #fff;
     }
 }* {
     box-sizing: border-box;
+}
+
+
+// mobile responsive
+@include mobile {
+
+}
+@include fHd {
+.gallery-img {
+        width: 380px;
+        height: 310px;
+        margin-bottom: 20px;
+    }.banner-info h3 {
+        color: $pr-color;
+        font-size: 65px;
+        width: 65%;
+        padding-top: 5%;
+     
+    }.latest--minimum {
+        min-width: 655px;
+    }.founder-bg--inner {
+      
+        height: 610px;
+
+    }
+}
+@include extrafHd {
+    .gallery-img {
+            width: 380px;
+            height: 310px;
+            margin-bottom: 20px;
+        }
+.beneficiaries-img {
+
+        height: 390px;
+
+    }.banner-info h3 {
+        color: $pr-color;
+        font-size: 65px;
+        width: 65%;
+        padding-top: 5%;
+
+    }.latest--minimum {
+        min-width: 655px;
+    }.founder-bg--inner {
+
+        height: 610px;
+
+    }.bannerImage {
+        height: 750px;
+
+        bottom: -75%;
+
+    }
+        .beneficiaries{
+            padding-top: 200px;
+        }
+        .gallery-bottom-space {
+      margin-top: 200px !important;
+    
+        }
 }
