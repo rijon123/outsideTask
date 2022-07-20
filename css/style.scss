@@ -471,6 +471,14 @@ font-weight: 400;
         opacity: 0.5;
     border: 0.75px solid $white-color;
 }
+.dropdown-content hr{
+    opacity: 0.5;
+        width: 70px;
+        border: 0.75px solid #999999;
+        float: left;
+        padding-right: 10px;
+        margin-right: 24%;
+}
 .gallery-group{
 border: 1px solid #F2EFEE;
             padding: 30px;
@@ -594,7 +602,7 @@ border: 0.5px solid #fff;
     color: $black-color;
  
     background-color: inherit;
-    margin: 0;
+    margin: 0 40px 0 0 ;
 }
 
 .company-navbar a:hover,
@@ -605,23 +613,28 @@ border: 0.5px solid #fff;
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: $white-color;
     width: 100%;
     left: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 1;margin-top: 20px;
+    border-top: 1px solid #F2EFEE;
 }
-
+.dropdown-content{
+    height: 300px;
+}
 .dropdown-content .header-item {
     background: $white-color;
     padding: 16px;
     color: $pr-color;
-    height: 180px;
 }
 
 .header-item a{
-    font-size: 18px;
-    color: $pr-color;
+    font-size: 32px;
+    font-weight: 500;
+    color: $pr-color;font-family: "Libre Baskerville", serif;
+    width: 400px;
+    text-align: left;padding-left: 35px;
 }
 .company-menu-dropdown:hover .dropdown-content {
     display: block;
